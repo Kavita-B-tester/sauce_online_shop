@@ -1,0 +1,17 @@
+{
+"data": [{
+  "username": "standard_user",
+  "password": "secret_sauce",
+  "firstname": "mahin",
+  "lastname": "adir",
+  "postcode": "123456"
+},
+  {
+    "username": "standard_user",
+  "password": "secret_sauce",
+  "firstname": "sam",
+  "lastname": "joseph",
+  "postcode": "678902"
+  }
+]
+}
