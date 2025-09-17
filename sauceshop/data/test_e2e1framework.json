@@ -12,6 +12,13 @@
   "firstname": "sam",
   "lastname": "joseph",
   "postcode": "678902"
+  },
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "firstname": "John",
+    "lastname": "Fernandies",
+    "postcode": "899067"
   }
 ]
 }

@@ -6,16 +6,16 @@ driver=None
 
 def pytest_addoption(parser):
     parser.addoption(
-        "--browser_name", action="store", default="chrome", help="browser selection"
+        "--browser_name", action="store", default="firefox", help="browser selection"
     )
 @pytest.fixture(scope="function")
 def BrowserInstance(request):
     global driver
     browser_name = request.config.getoption("browser_name")
-    if browser_name == "chrome":
-        driver = webdriver.Chrome()
-    elif browser_name == "firefox":
+    if browser_name == "firefox":
         driver = webdriver.Firefox()
+    elif browser_name == "chrome":
+        driver = webdriver.Chrome()
     driver.implicitly_wait(10)
     yield driver
     driver.close()
