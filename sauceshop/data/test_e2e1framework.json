@@ -19,6 +19,14 @@
     "firstname": "John",
     "lastname": "Fernandies",
     "postcode": "899067"
+  },
+  {
+
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "firstname": "Merry",
+    "lastname": "Dsoja",
+    "postcode": "674589"
   }
 ]
 }
